@@ -18,7 +18,9 @@ export default function Header() {
                 </ul>
 
                 <div className="text-end">
+                    <Link to= "/login">
                     <button type="button" className="btn btn-outline-primary me-2">Login</button>
+                    </Link>
                     <button type="button" className="btn btn-primary">Register</button>
                 </div>
                 {/* ganti a href jadi Link to, gapake tag a tuh karena tag a tuh sifatnya ngerender ulang*/}
